@@ -1,0 +1,11 @@
+---
+title: Include external R script in rmarkdown
+author: 
+date: 2015-09-03
+output: html_document
+---
+
+# read and evaluate external script!
+```{r echo=FALSE}
+source('ExternalChunk.R')
+```
